@@ -1,0 +1,31 @@
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(119, 126, 119, 0.589),
+      rgba(1, 31, 8, 0.726)
+    ),
+    url('../../assets/hero-dominik-kempf-unsplash.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  background-position: center;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+
+.hero-text p {
+  font-size: 30px;
+}
