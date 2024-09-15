@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo_prinzpipp.png';
+import logo from '../../assets/logo_prinzpipp.png';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
