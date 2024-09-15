@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Title from '../../components/Title/Title';
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
           <p>No Problem! Here is something waiting for you </p>
         </div>
       </div>
+      <Title title='Bestseller' subtitle='Only the best for you' />
     </div>
   );
 };
